@@ -1,0 +1,1272 @@
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            background-image: url("../img/scarcity-bg1.png");
+            background-position: auto;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .jumbotron {
+            width: 100%;
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .desc {
+            padding-top: 0px;
+            padding-bottom: 15px;
+        }
+        
+        .parrafo {
+            color: white;
+            padding-bottom: 0px !important;
+            margin-bottom: 0px !important;
+            font-family: Arial, Helvetica, sans-serif !important;
+        }
+        
+        .ellipse-compose {
+            padding: 0px;
+        }
+        
+        .sorcerer-compose {
+            padding: 0px;
+            right: 0px !important;
+            left: 0px !important;
+        }
+        
+        .circle {
+            padding: 0px;
+        }
+        
+        .buttons-foot {
+            margin-top: 60px;
+        }
+        
+        .buttons-sides {
+            margin-top: 180px;
+            margin-bottom: 0px;
+        }
+        
+        .btn,
+        .btn-secondary {
+            background-color: rgb(0, 0, 0, 0.5);
+            border-color: #ebda57;
+            border: none;
+            border-radius: 15px;
+            height: 50px;
+            box-shadow: 0px 2px 15px rgba(228, 190, 21, 0.329);
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+        
+        .btn:hover,
+        .btn-secondary:hover {
+            background-color: #ebda57;
+            box-shadow: 0px 15px 20px rgba(211, 229, 46, 0.4);
+            color: #fff;
+            border: none;
+            transform: translateY(-7px);
+        }
+        
+        .backg-span {
+            padding-bottom: 20px;
+            border: none;
+            background-color: rgb(0, 0, 0, 0.1);
+        }
+        
+        .buttons-sides a {
+            position: relative;
+            display: inline-block;
+            padding: 10px 20px;
+            color: #f4dc03;
+            font-size: 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 40px;
+            letter-spacing: 4px
+        }
+        
+        .buttons-sides a:hover {
+            background: #f4dc03;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #f4dc03, 0 0 25px #f4dc03, 0 0 50px #f4dc03, 0 0 100px #f4dc03;
+        }
+        
+        .buttons-sides a span {
+            position: absolute;
+            display: block;
+        }
+        
+        .buttons-sides a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #f4dc03);
+            animation: btn-anim1 2.25s linear infinite;
+            animation-delay: .5s
+        }
+        
+        @keyframes btn-anim1 {
+            0% {
+                left: -100%;
+            }
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+        
+        .buttons-sides a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #f4dc03);
+            animation: btn-anim2 2.25s linear infinite;
+            animation-delay: 1.25s
+        }
+        
+        @keyframes btn-anim2 {
+            0% {
+                top: -100%;
+            }
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+        
+        .buttons-sides a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #f4dc03);
+            animation: btn-anim3 2.25s linear infinite;
+            animation-delay: 1.75s
+        }
+        
+        @keyframes btn-anim3 {
+            0% {
+                right: -100%;
+            }
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+        
+        .buttons-sides a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #f4dc03);
+            animation: btn-anim4 2.25s linear infinite;
+            animation-delay: 2.25s
+        }
+        
+        @keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+        /*Buttons sides resp 320*/
+        
+        .buttons-sides-res320 a {
+            position: relative;
+            display: inline-block;
+            padding: 5px 10px;
+            color: #f4dc03;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 20px;
+            letter-spacing: 4px
+        }
+        
+        .buttons-sides-res320 a:hover {
+            background: #f4dc03;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #f4dc03, 0 0 25px #f4dc03, 0 0 50px #f4dc03, 0 0 100px #f4dc03;
+        }
+        
+        .buttons-sides-res320 a span {
+            position: absolute;
+            display: block;
+        }
+        
+        .buttons-sides-res320 a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #f4dc03);
+            animation: btn-anim1 2.25s linear infinite;
+            animation-delay: .5s
+        }
+        
+        @keyframes btn-anim1 {
+            0% {
+                left: -100%;
+            }
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+        
+        .buttons-sides-res320 a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #f4dc03);
+            animation: btn-anim2 2.25s linear infinite;
+            animation-delay: 1.25s
+        }
+        
+        @keyframes btn-anim2 {
+            0% {
+                top: -100%;
+            }
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+        
+        .buttons-sides-res320 a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #f4dc03);
+            animation: btn-anim3 2.25s linear infinite;
+            animation-delay: 1.75s
+        }
+        
+        @keyframes btn-anim3 {
+            0% {
+                right: -100%;
+            }
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+        
+        .buttons-sides-res320 a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #f4dc03);
+            animation: btn-anim4 2.25s linear infinite;
+            animation-delay: 2.25s
+        }
+        
+        @keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+        /*End Buttons sides resp 320*/
+        /*Buttons side resp 412*/
+        
+        .buttons-sides-res412 a {
+            position: relative;
+            display: inline-block;
+            padding: 5px 10px;
+            color: #f4dc03;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 20px;
+            letter-spacing: 4px
+        }
+        
+        .buttons-sides-res412 a:hover {
+            background: #f4dc03;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #f4dc03, 0 0 25px #f4dc03, 0 0 50px #f4dc03, 0 0 100px #f4dc03;
+        }
+        
+        .buttons-sides-res412 a span {
+            position: absolute;
+            display: block;
+        }
+        
+        .buttons-sides-res412 a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #f4dc03);
+            animation: btn-anim1 2.25s linear infinite;
+            animation-delay: .5s
+        }
+        
+        @keyframes btn-anim1 {
+            0% {
+                left: -100%;
+            }
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+        
+        .buttons-sides-res412 a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #f4dc03);
+            animation: btn-anim2 2.25s linear infinite;
+            animation-delay: 1.25s
+        }
+        
+        @keyframes btn-anim2 {
+            0% {
+                top: -100%;
+            }
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+        
+        .buttons-sides-res412 a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #f4dc03);
+            animation: btn-anim3 2.25s linear infinite;
+            animation-delay: 1.75s
+        }
+        
+        @keyframes btn-anim3 {
+            0% {
+                right: -100%;
+            }
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+        
+        .buttons-sides-res412 a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #f4dc03);
+            animation: btn-anim4 2.25s linear infinite;
+            animation-delay: 2.25s
+        }
+        
+        @keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+        /*End Buttons side resp 412*/
+        /*Buttons sides resp 426*/
+        
+        .buttons-sides-res426 a {
+            position: relative;
+            display: inline-block;
+            padding: 5px 10px;
+            color: #f4dc03;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 20px;
+            letter-spacing: 4px
+        }
+        
+        .buttons-sides-res426 a:hover {
+            background: #f4dc03;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #f4dc03, 0 0 25px #f4dc03, 0 0 50px #f4dc03, 0 0 100px #f4dc03;
+        }
+        
+        .buttons-sides-res426 a span {
+            position: absolute;
+            display: block;
+        }
+        
+        .buttons-sides-res426 a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #f4dc03);
+            animation: btn-anim1 2.25s linear infinite;
+            animation-delay: .5s
+        }
+        
+        @keyframes btn-anim1 {
+            0% {
+                left: -100%;
+            }
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+        
+        .buttons-sides-res426 a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #f4dc03);
+            animation: btn-anim2 2.25s linear infinite;
+            animation-delay: 1.25s
+        }
+        
+        @keyframes btn-anim2 {
+            0% {
+                top: -100%;
+            }
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+        
+        .buttons-sides-res426 a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #f4dc03);
+            animation: btn-anim3 2.25s linear infinite;
+            animation-delay: 1.75s
+        }
+        
+        @keyframes btn-anim3 {
+            0% {
+                right: -100%;
+            }
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+        
+        .buttons-sides-res426 a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #f4dc03);
+            animation: btn-anim4 2.25s linear infinite;
+            animation-delay: 2.25s
+        }
+        
+        @keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+        /*End Buttons sides resp 426*/
+        /*Buttons sides resp 812*/
+        
+        .buttons-sides-res812 a {
+            position: relative;
+            display: inline-block;
+            padding: 5px 10px;
+            color: #f4dc03;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 20px;
+            letter-spacing: 4px
+        }
+        
+        .buttons-sides-res812 a:hover {
+            background: #f4dc03;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #f4dc03, 0 0 25px #f4dc03, 0 0 50px #f4dc03, 0 0 100px #f4dc03;
+        }
+        
+        .buttons-sides-res812 a span {
+            position: absolute;
+            display: block;
+        }
+        
+        .buttons-sides-res812 a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #f4dc03);
+            animation: btn-anim1 2.25s linear infinite;
+            animation-delay: .5s
+        }
+        
+        @keyframes btn-anim1 {
+            0% {
+                left: -100%;
+            }
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+        
+        .buttons-sides-res812 a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #f4dc03);
+            animation: btn-anim2 2.25s linear infinite;
+            animation-delay: 1.25s
+        }
+        
+        @keyframes btn-anim2 {
+            0% {
+                top: -100%;
+            }
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+        
+        .buttons-sides-res812 a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #f4dc03);
+            animation: btn-anim3 2.25s linear infinite;
+            animation-delay: 1.75s
+        }
+        
+        @keyframes btn-anim3 {
+            0% {
+                right: -100%;
+            }
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+        
+        .buttons-sides-res812 a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #f4dc03);
+            animation: btn-anim4 2.25s linear infinite;
+            animation-delay: 2.25s
+        }
+        
+        @keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+        /*End Buttons sides resp 812*/
+        /*button foot*/
+        
+        .buttons-foot a {
+            position: relative;
+            display: inline-block;
+            padding: 10px 20px;
+            color: #f4dc03;
+            font-size: 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 40px;
+            letter-spacing: 4px
+        }
+        
+        .buttons-foot a:hover {
+            background: #f4dc03;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #f4dc03, 0 0 25px #f4dc03, 0 0 50px #f4dc03, 0 0 100px #f4dc03;
+        }
+        
+        .buttons-foot a span {
+            position: absolute;
+            display: block;
+        }
+        
+        .buttons-foot a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #f4dc03);
+            animation: btn-anim1 2.25s linear infinite;
+            animation-delay: .5s
+        }
+        
+        @keyframes btn-anim1 {
+            0% {
+                left: -100%;
+            }
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+        
+        .buttons-foot a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #f4dc03);
+            animation: btn-anim2 2.25s linear infinite;
+            animation-delay: 1.25s
+        }
+        
+        @keyframes btn-anim2 {
+            0% {
+                top: -100%;
+            }
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+        
+        .buttons-foot a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #f4dc03);
+            animation: btn-anim3 2.25s linear infinite;
+            animation-delay: 1.75s
+        }
+        
+        @keyframes btn-anim3 {
+            0% {
+                right: -100%;
+            }
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+        
+        .buttons-foot a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #f4dc03);
+            animation: btn-anim4 2.25s linear infinite;
+            animation-delay: 2.25s
+        }
+        
+        @keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+        /*button foot res320*/
+        
+        .buttons-foot-res320 a {
+            position: relative;
+            display: inline-block;
+            padding: 5px 10px;
+            color: #f4dc03;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 20px;
+            letter-spacing: 4px
+        }
+        
+        .buttons-foot-res320 a:hover {
+            background: #f4dc03;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #f4dc03, 0 0 25px #f4dc03, 0 0 50px #f4dc03, 0 0 100px #f4dc03;
+        }
+        
+        .buttons-foot-res320 a span {
+            position: absolute;
+            display: block;
+        }
+        
+        .buttons-foot-res320 a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #f4dc03);
+            animation: btn-anim1 2.25s linear infinite;
+            animation-delay: .5s
+        }
+        
+        @keyframes btn-anim1 {
+            0% {
+                left: -100%;
+            }
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+        
+        .buttons-foot-res320 a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #f4dc03);
+            animation: btn-anim2 2.25s linear infinite;
+            animation-delay: 1.25s
+        }
+        
+        @keyframes btn-anim2 {
+            0% {
+                top: -100%;
+            }
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+        
+        .buttons-foot-res320 a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #f4dc03);
+            animation: btn-anim3 2.25s linear infinite;
+            animation-delay: 1.75s
+        }
+        
+        @keyframes btn-anim3 {
+            0% {
+                right: -100%;
+            }
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+        
+        .buttons-foot-res320 a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #f4dc03);
+            animation: btn-anim4 2.25s linear infinite;
+            animation-delay: 2.25s
+        }
+        
+        @keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+        /*end button foot res320*/
+        /*button foot res412*/
+        
+        .buttons-foot-res412 a {
+            position: relative;
+            display: inline-block;
+            padding: 5px 10px;
+            color: #f4dc03;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 20px;
+            letter-spacing: 4px
+        }
+        
+        .buttons-foot-res412 a:hover {
+            background: #f4dc03;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #f4dc03, 0 0 25px #f4dc03, 0 0 50px #f4dc03, 0 0 100px #f4dc03;
+        }
+        
+        .buttons-foot-res412 a span {
+            position: absolute;
+            display: block;
+        }
+        
+        .buttons-foot-res412 a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #f4dc03);
+            animation: btn-anim1 2.25s linear infinite;
+            animation-delay: .5s
+        }
+        
+        @keyframes btn-anim1 {
+            0% {
+                left: -100%;
+            }
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+        
+        .buttons-foot-res412 a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #f4dc03);
+            animation: btn-anim2 2.25s linear infinite;
+            animation-delay: 1.25s
+        }
+        
+        @keyframes btn-anim2 {
+            0% {
+                top: -100%;
+            }
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+        
+        .buttons-foot-res412 a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #f4dc03);
+            animation: btn-anim3 2.25s linear infinite;
+            animation-delay: 1.75s
+        }
+        
+        @keyframes btn-anim3 {
+            0% {
+                right: -100%;
+            }
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+        
+        .buttons-foot-res412 a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #f4dc03);
+            animation: btn-anim4 2.25s linear infinite;
+            animation-delay: 2.25s
+        }
+        
+        @keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+        /*end button foot res412*/
+        /*button foot res812*/
+        
+        .buttons-foot-res812 a {
+            position: relative;
+            display: inline-block;
+            padding: 5px 10px;
+            color: #f4dc03;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 20px;
+            letter-spacing: 4px
+        }
+        
+        .buttons-foot-res812 a:hover {
+            background: #f4dc03;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #f4dc03, 0 0 25px #f4dc03, 0 0 50px #f4dc03, 0 0 100px #f4dc03;
+        }
+        
+        .buttons-foot-res812 a span {
+            position: absolute;
+            display: block;
+        }
+        
+        .buttons-foot-res812 a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #f4dc03);
+            animation: btn-anim1 2.25s linear infinite;
+            animation-delay: .5s
+        }
+        
+        @keyframes btn-anim1 {
+            0% {
+                left: -100%;
+            }
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+        
+        .buttons-foot-res812 a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #f4dc03);
+            animation: btn-anim2 2.25s linear infinite;
+            animation-delay: 1.25s
+        }
+        
+        @keyframes btn-anim2 {
+            0% {
+                top: -100%;
+            }
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+        
+        .buttons-foot-res812 a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #f4dc03);
+            animation: btn-anim3 2.25s linear infinite;
+            animation-delay: 1.75s
+        }
+        
+        @keyframes btn-anim3 {
+            0% {
+                right: -100%;
+            }
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+        
+        .buttons-foot-res812 a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #f4dc03);
+            animation: btn-anim4 2.25s linear infinite;
+            animation-delay: 2.25s
+        }
+        
+        @keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+        /*end button foot res812*/
+        
+        .foot {
+            color: white;
+            margin-top: 20px;
+            font-size: 12px !important;
+        }
+        
+        .foot h5 {
+            font-size: 14px !important;
+        }
+        
+        .foot span {
+            color: whitesmoke;
+        }
+        
+        .buttons-responsive320,
+        .buttons-responsive412,
+        .buttons-responsive812 {
+            display: none;
+        }
+        
+        .img-sorc-320,
+        .img-sorc-412,
+        .img-sorc-812 {
+            display: none;
+            width: 20px;
+            height: 20px;
+        }
+        
+        @media (max-width:376px) {
+            body {
+                width: 100%;
+                height: 100%;
+                background-image: url("../img/scarcity-bg.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .parrafo,
+            .buttons-foot,
+            .buttons-sides,
+            .buttons-responsive412,
+            .buttons-responsive812 {
+                display: none !important;
+            }
+            .buttons-responsive320 {
+                display: block !important;
+                margin-top: 200px;
+                align-items: center;
+                justify-content: center;
+            }
+            .desc img {
+                display: none;
+            }
+            .img-sorc-320 {
+                display: block;
+                padding-left: 28px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            .fila1 a,
+            .col1 {
+                margin-left: 0px !important;
+                margin-right: 50px !;
+            }
+            .fila2 a,
+            .col1 {
+                margin-left: 30px !important;
+                margin-right: 0px;
+            }
+            .fila3 a,
+            .col1 {
+                margin-left: 29px !important;
+                margin-right: 0px;
+            }
+            .fila4 a,
+            .col1 {
+                margin-left: 30px !important;
+                margin-right: 0px;
+            }
+        }
+        
+        @media (max-width:415px) {
+            body {
+                width: 100%;
+                height: 100%;
+                background-image: url("../img/scarcity-bg.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .parrafo,
+            .buttons-foot,
+            .buttons-sides,
+            .buttons-responsive320 {
+                display: none;
+            }
+            .desc img {
+                display: none;
+            }
+            .buttons-responsive412 {
+                display: block;
+                margin-top: 250px;
+                align-items: center;
+                justify-content: center;
+            }
+            .img-sorc-320,
+            .img-sorc-812 {
+                display: none;
+            }
+            .img-sorc-412 {
+                display: block;
+                padding-left: 70px;
+                padding-top: 35px;
+                padding-bottom: 15px;
+            }
+            .fila1 a,
+            .col1 {
+                margin-left: 0px !important;
+                margin-right: 50px !;
+            }
+            .fila2 a,
+            .col1 {
+                margin-left: 30px !important;
+                margin-right: 0px;
+            }
+            .fila3 a,
+            .col1 {
+                margin-left: 29px !important;
+                margin-right: 0px;
+            }
+            .fila4 a,
+            .col1 {
+                margin-left: 30px !important;
+                margin-right: 0px;
+            }
+        }
+        
+        @media (max-width:429px) {
+            body {
+                width: 100%;
+                height: 100%;
+                background-image: url("../img/scarcity-bg.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .parrafo,
+            .buttons-foot,
+            .buttons-sides,
+            .buttons-responsive320 {
+                display: none;
+            }
+            .desc img {
+                display: none;
+            }
+            .buttons-responsive412 {
+                display: block;
+                margin-top: 250px;
+                align-items: center;
+                justify-content: center;
+            }
+            .img-sorc-320,
+            .img-sorc-812 {
+                display: none;
+            }
+            .img-sorc-412 {
+                display: block;
+                padding-left: 70px;
+                padding-top: 55px;
+                padding-bottom: 15px;
+            }
+            .fila1 a,
+            .col1 {
+                margin-left: 0px !important;
+                margin-right: 50px !;
+            }
+            .fila2 a,
+            .col1 {
+                margin-left: 30px !important;
+                margin-right: 0px;
+            }
+            .fila3 a,
+            .col1 {
+                margin-left: 29px !important;
+                margin-right: 0px;
+            }
+            .fila4 a,
+            .col1 {
+                margin-left: 30px !important;
+                margin-right: 0px;
+            }
+        }
+        
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+            body {
+                width: 100%;
+                height: 100%;
+                background-image: url("../img/scarcity-bg.png");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .parrafo,
+            .buttons-foot,
+            .buttons-sides,
+            .desc,
+            .buttons-responsive320,
+            .buttons-responsive412 {
+                display: none;
+            }
+            .buttons-responsive812 {
+                display: block;
+                padding-left: 320px;
+                padding-top: 500px;
+                padding-bottom: 15px;
+            }
+            .img-sorc-812 {
+                display: block;
+                padding-left: 150px;
+                padding-top: 55px;
+                padding-bottom: 15px;
+            }
+        }
